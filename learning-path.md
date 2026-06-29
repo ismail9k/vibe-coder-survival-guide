@@ -16,7 +16,7 @@ Resource: [The Odin Project — Foundations](https://www.theodinproject.com/path
 
 **Goal:** get a real, live URL on the internet as fast as possible. Nothing motivates like a thing that exists.
 
-Learn: [Next.js](./web.md) + [Tailwind CSS](./web.md), then [deploy](./glossary.md#deployment) to [Vercel](./universal-toolbelt.md).
+Learn: [Next.js](./web.md) + [Tailwind CSS](./web.md), then [deploy](./glossary.md#deployment) to [Cloudflare](./universal-toolbelt.md).
 
 Resource: [Next.js Learn course](https://nextjs.org/learn) (free, official, builds and deploys a real app).
 
@@ -42,7 +42,7 @@ Resource: [Vitest — Getting Started](https://vitest.dev/guide/) (free, the on-
 
 Pick a branch:
 - **Mobile** → [React Native via Expo](./mobile.md) — reuse your TypeScript and React on phones.
-- **AI apps** → [Vercel AI SDK + Claude](./ai-apps.md) — add a model call to a web app.
+- **AI apps** → [AI SDK + Claude](./ai-apps.md) — add a model call to a web app.
 - **Backend** → [Hono](./backend.md) — build a standalone API when Next.js routes aren't enough.
 
 Resource: open the [domain page](./README.md) for your chosen branch and build one small project end to end.

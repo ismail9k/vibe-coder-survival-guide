@@ -24,7 +24,7 @@ The organized place your app stores data so it survives after you close the brow
 
 ### Deployment
 
-Putting your app on the public internet so other people can actually use it at a real URL, instead of it only running on your laptop. Example: pushing to Vercel and getting `myapp.vercel.app`.
+Putting your app on the public internet so other people can actually use it at a real URL, instead of it only running on your laptop. Example: pushing to Cloudflare and getting `myapp.pages.dev`.
 
 ### Environment variable (`.env`)
 

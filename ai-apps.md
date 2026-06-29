@@ -7,9 +7,9 @@ Read the [Universal Toolbelt](./universal-toolbelt.md) and [web stack](./web.md)
 | Slot | Pick | Why this one | Without it you'd... | Link |
 |------|------|--------------|---------------------|------|
 | Model | Claude (Anthropic) — latest Opus/Sonnet | The latest Claude models (Opus 4.8, Sonnet 4.6) are top-tier at coding and reasoning, with excellent docs the AI knows well; start with Sonnet for cost, move to Opus for hard tasks. | Train and host your own model — months of work and GPU bills for something worse. | [Anthropic API docs](https://docs.claude.com/en/api/overview) |
-| App SDK | Vercel AI SDK (+ Anthropic SDK) | TypeScript-native streaming and chat UI helpers that turn a model call into a few lines, in the same Next.js app you already have. | Hand-wire streaming responses and message state, and get the edge cases wrong. | [Vercel AI SDK docs](https://ai-sdk.dev/docs) |
+| App SDK | AI SDK (+ Anthropic SDK) | TypeScript-native streaming and chat UI helpers that turn a model call into a few lines, in the same Next.js app you already have — and it's vendor-neutral, so it runs on Cloudflare. | Hand-wire streaming responses and message state, and get the edge cases wrong. | [AI SDK docs](https://ai-sdk.dev/docs) |
 | Vector store | Supabase pgvector | Store embeddings for [RAG](./glossary.md#rag) in the same Postgres you already use — no second database vendor to learn. | Run a separate [vector database](./glossary.md#vector-database) service and sync data between two systems. | [pgvector docs](https://supabase.com/docs/guides/ai) |
-| Hosting | Vercel | Deploy the whole AI app — UI, API routes, and model calls — from one GitHub push. | Stitch together separate hosts for the front end and the model-calling back end. | [Vercel docs](https://vercel.com/docs) |
+| Hosting | Cloudflare | Deploy the whole AI app — UI, API routes, and model calls — to a global edge network from one GitHub push. | Stitch together separate hosts for the front end and the model-calling back end. | [Cloudflare Workers docs](https://developers.cloudflare.com/workers/) |
 
 ## Don't bother yet
 

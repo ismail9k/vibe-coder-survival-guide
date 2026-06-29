@@ -14,14 +14,14 @@ Read the [Universal Toolbelt](./universal-toolbelt.md) first — these are the p
 | [ORM](./glossary.md#orm) | Drizzle | Talk to Postgres in TypeScript with full autocomplete and type-safe queries. | Write raw SQL strings by hand and find typos only when a query fails in production. | [Drizzle docs](https://orm.drizzle.team/docs/overview) |
 | [Auth](./glossary.md#auth) | Clerk | Drop-in sign-in, sign-up, and user management with a free tier — the part that's dangerous to DIY. | Hand-roll password hashing and sessions and risk leaking everyone's accounts. | [Clerk docs](https://clerk.com/docs) |
 | Validation | Zod | Validate forms and API input in TypeScript, with types inferred automatically. | Trust user input, write fragile manual checks, and let bad data reach your database. | [Zod docs](https://zod.dev) |
-| Hosting | Vercel | Built by the Next.js team; connect GitHub and deploy on every push for free. | Manually configure and babysit a server every time you ship a change. | [Vercel docs](https://vercel.com/docs) |
+| Hosting | Cloudflare | Connect GitHub and your Next.js app deploys to a global edge network on every push, with a generous free tier. | Manually configure and babysit a server every time you ship a change. | [Cloudflare Workers docs](https://developers.cloudflare.com/workers/) |
 
 ## Don't bother yet
 
 You'll see these online and feel behind. You're not. Skip them until a real problem forces your hand.
 
 - **Microservices** — splitting your app into many services adds huge complexity; one app (a "monolith") is correct until you have a team and scale problems.
-- **Kubernetes** — an orchestration system for fleets of servers. Vercel runs your app for you; you do not have a fleet.
+- **Kubernetes** — an orchestration system for fleets of servers. Cloudflare runs your app for you; you do not have a fleet.
 - **Hand-rolled auth** — security you'll get subtly wrong. Use Clerk or Supabase Auth.
 - **GraphQL** — a flexible API query layer that pays off at scale; Next.js API routes are simpler and enough.
 - **Monorepos** — tooling for managing many packages in one repo; you have one app, so you don't need it.
