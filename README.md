@@ -32,5 +32,6 @@ One language end to end — **[TypeScript](./glossary.md#type-checker--typescrip
 - **[Mobile](./mobile.md)** — the default mobile stack
 - **[Backend](./backend.md)** — the default backend / API stack
 - **[AI Apps](./ai-apps.md)** — the default LLM-app stack
+- **[Skills & Plugins](./skills-plugins.md)** — extending your AI assistant 🚧 *(todo)*
 - **[Learning Path](./learning-path.md)** — what to learn, in what order
 - **[Glossary](./glossary.md)** — plain-language definitions
