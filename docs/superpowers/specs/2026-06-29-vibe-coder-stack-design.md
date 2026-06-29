@@ -1,4 +1,7 @@
-# The Vibe Coder Stack — Design Spec
+# The Vibe Coder's Survival Guide — Design Spec
+
+**Title:** The Vibe Coder's Survival Guide
+**Tagline:** The opinionated, AI-friendly stack and learning path for people who build with AI.
 
 **Date:** 2026-06-29
 **Status:** Draft for review
