@@ -45,4 +45,4 @@ Pick a branch:
 - **AI apps** → [AI SDK + Claude](./ai-apps.md) — add a model call to a web app.
 - **Backend** → [Hono](./backend.md) — build a standalone API when Next.js routes aren't enough.
 
-Resource: open the [domain page](./README.md) for your chosen branch and build one small project end to end.
+Resource: open the [domain page](/) for your chosen branch and build one small project end to end.
