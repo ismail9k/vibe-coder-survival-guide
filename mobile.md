@@ -2,7 +2,7 @@
 
 Here's the good news: **if you know the [web stack](./web.md), you already know most of mobile.** React Native lets you build real iOS and Android apps with the same [TypeScript](./glossary.md#type-checker--typescript) and React you use on the web, and your database and auth picks carry straight over.
 
-Read the [Universal Toolbelt](./universal-toolbelt.md) first — these are the mobile-specific picks on top of it.
+Read the [Universal Toolbelt](./universal-toolbelt.md) first — these are the mobile-specific picks on top of it. And keep the rule above the stack in mind: **[buy or glue, don't build](./buy-dont-build.md)** — lean on hosted auth, payments, and uploads instead of rebuilding them per platform.
 
 | Slot | Pick | Why this one | Without it you'd... | Link |
 |------|------|--------------|---------------------|------|

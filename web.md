@@ -2,7 +2,7 @@
 
 If you're building anything that runs in a browser — a SaaS app, a dashboard, a side project — this is the stack. It's all one language ([TypeScript](./glossary.md#type-checker--typescript)) end to end, every piece is something AI assistants know well, and every pick has a free tier.
 
-Read the [Universal Toolbelt](./universal-toolbelt.md) first — these are the picks *specific* to web on top of it.
+Read the [Universal Toolbelt](./universal-toolbelt.md) first — these are the picks *specific* to web on top of it. And remember the rule above the stack: **[buy or glue, don't build](./buy-dont-build.md)** — rent the auth, payments, and image hosting so your time goes to the feature that's actually yours.
 
 | Slot | Pick | Why this one | Without it you'd... | Link |
 |------|------|--------------|---------------------|------|

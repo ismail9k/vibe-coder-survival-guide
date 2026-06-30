@@ -23,11 +23,14 @@ This guide gives you **one default pick per job**, not a menu. The picks follow 
 2. **Beginner-friendly** — gentle learning curve, great docs, big community.
 3. **Free tier** — ship without a credit card.
 
+And one rule above all three: **buy or glue, don't build.** Almost everything your project needs — auth, payments, image hosting, email, an affiliate program, scaling — is a solved problem that someone hosts better than you will. Use it. Build it yourself only when you've actually hit a wall the service can't clear, not before. Your time is the scarce resource; spend it on the one thing that's actually *your* idea. See **[Buy, Don't Build](./buy-dont-build.md)** for the job-by-job picks.
+
 One language end to end — **[TypeScript](./glossary.md#type-checker--typescript)** — so the same knowledge carries across web, mobile, backend, and AI. The bias is **ship fast and learn**, not enterprise scale. When something is overkill for a beginner, we say so in a "Don't bother yet" list rather than pretending it doesn't exist.
 
 ## Index
 
 - **[Universal Toolbelt](./universal-toolbelt.md)** — the tools every project needs (read this first)
+- **[Buy, Don't Build](./buy-dont-build.md)** — the jobs to outsource instead of building yourself
 - **[Web](./web.md)** — the default web stack
 - **[Mobile](./mobile.md)** — the default mobile stack
 - **[Backend](./backend.md)** — the default backend / API stack

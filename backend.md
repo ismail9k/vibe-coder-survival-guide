@@ -2,7 +2,7 @@
 
 First, a money-saving truth: **most beginners don't need a separate backend.** Next.js [API](./glossary.md#api) routes (see the [web stack](./web.md)) run server code right alongside your app and cover the vast majority of projects. This page is for when you *do* need a standalone API — a service shared by a mobile app and a web app, or a backend with no web front end at all.
 
-Read the [Universal Toolbelt](./universal-toolbelt.md) first — these are the backend-specific picks on top of it.
+Read the [Universal Toolbelt](./universal-toolbelt.md) first — these are the backend-specific picks on top of it. And keep the rule above the stack in mind: **[buy or glue, don't build](./buy-dont-build.md)** — a managed database, hosted auth, and a jobs service beat operating that infrastructure yourself.
 
 | Slot | Pick | Why this one | Without it you'd... | Link |
 |------|------|--------------|---------------------|------|

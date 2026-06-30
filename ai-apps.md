@@ -2,7 +2,7 @@
 
 Here's the reframe that saves beginners weeks: **an AI app is mostly a normal web app that calls a model.** It's the [web stack](./web.md) plus one [API](./glossary.md#api) call to an [LLM](./glossary.md#api). Don't reach for exotic infrastructure — build the web app, add the model call, ship.
 
-Read the [Universal Toolbelt](./universal-toolbelt.md) and [web stack](./web.md) first — this page is just the AI-specific layer on top.
+Read the [Universal Toolbelt](./universal-toolbelt.md) and [web stack](./web.md) first — this page is just the AI-specific layer on top. And keep the rule above the stack in mind: **[buy or glue, don't build](./buy-dont-build.md)** — call a hosted model instead of training your own, and rent the rest of the plumbing too.
 
 | Slot | Pick | Why this one | Without it you'd... | Link |
 |------|------|--------------|---------------------|------|
