@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "The Vibe Coder's Survival Guide",
+  title: "Vibe Coder's Survival Guide",
   description:
     'The opinionated, AI-friendly stack and learning path for people who build with AI.',
   base: '/vibe-coder-survival-guide/',

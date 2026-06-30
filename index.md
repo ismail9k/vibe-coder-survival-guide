@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: The Vibe Coder's Survival Guide
+  name: Vibe Coder's Survival Guide
   text: The AI-friendly stack for people who build with AI.
   tagline: One default pick per job — not a menu. Close the gap between "it works" and "it's a real project."
   actions:
