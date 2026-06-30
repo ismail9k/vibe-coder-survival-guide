@@ -12,9 +12,11 @@ Read the [Universal Toolbelt](./universal-toolbelt.md) first — these are the b
 | [ORM](./glossary.md#orm) | Drizzle | Type-safe SQL in TypeScript with autocomplete, so queries are checked at compile time. | Concatenate SQL strings by hand and open yourself to injection bugs. | [Drizzle docs](https://orm.drizzle.team/docs/overview) |
 | [Auth](./glossary.md#auth) | Clerk / Supabase Auth | Managed auth with a free tier; Supabase Auth is handy when you're already on Supabase. | Build and secure token handling yourself and risk leaking accounts. | [Clerk docs](https://clerk.com/docs) |
 | Background jobs | Inngest | Run scheduled and queued work (emails, retries, cron) with no separate queue server to operate. | Hand-roll a job queue and cron infrastructure, then debug silent failures. | [Inngest docs](https://www.inngest.com/docs) |
-| Hosting | Cloudflare Workers / Railway | Cloudflare Workers for serverless APIs on the edge; Railway when you want a long-running server — both deploy from GitHub. | SSH into a VPS and configure the runtime, process manager, and TLS by hand. | [Cloudflare Workers docs](https://developers.cloudflare.com/workers/) · [Railway docs](https://docs.railway.com) |
+| Hosting | Cloudflare Workers / Railway | Cloudflare Workers for [serverless](./glossary.md#serverless) APIs on the edge; Railway when you want a long-running server — both deploy from GitHub. | SSH into a VPS and configure the runtime, process manager, and TLS by hand. | [Cloudflare Workers docs](https://developers.cloudflare.com/workers/) · [Railway docs](https://docs.railway.com) |
 
 ## Don't bother yet
+
+These show up in "real backend" tutorials and make you feel like you're missing something. You're not — skip them until scale actually forces the issue.
 
 - **Microservices** — many small services to coordinate; one service is correct until you have a team and real scale pain.
 - **Message queues** (Kafka, RabbitMQ) — heavy infrastructure for decoupling; Inngest covers background work without running a broker.

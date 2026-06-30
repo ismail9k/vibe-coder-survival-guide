@@ -14,6 +14,8 @@ Read the [Universal Toolbelt](./universal-toolbelt.md) first — these are the m
 
 ## Don't bother yet
 
+These look like the "serious" way to build mobile. For your first app they're pure overhead — skip them until you hit a real limit.
+
 - **Native Swift / Kotlin** — writing separately for each platform doubles your work; React Native ships both from one codebase until you hit a rare native limit.
 - **Bare React Native** (without Expo) — you'd take on all the native build config Expo handles for you, for no early benefit.
 - **In-app purchases** before you have users — payments add app-store complexity; get people using the app first.

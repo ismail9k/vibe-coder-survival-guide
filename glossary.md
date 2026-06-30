@@ -10,6 +10,10 @@ A way for one program to ask another program for something. When your app "calls
 
 Short for authentication and authorization: proving *who* a user is (login) and deciding *what* they're allowed to do. Getting this wrong leaks people's accounts, so you use a service instead of building it yourself. Example: Clerk, Supabase Auth.
 
+### CDN
+
+Content delivery network: a fleet of servers spread around the world that keep copies of your files (images, scripts, pages) close to each user, so they load fast everywhere instead of from one distant origin. Most hosts and upload services include one. Example: Cloudflare serving your site from the city nearest each visitor.
+
 ### CI/CD
 
 Continuous Integration / Continuous Deployment: robots that automatically run your tests and ship your code every time you push to GitHub, so "it works on my machine" stops being a sentence you say. Example: GitHub Actions.
@@ -24,7 +28,7 @@ The organized place your app stores data so it survives after you close the brow
 
 ### Deployment
 
-Putting your app on the public internet so other people can actually use it at a real URL, instead of it only running on your laptop. Example: pushing to Cloudflare and getting `myapp.pages.dev`.
+Putting your app on the public internet so other people can actually use it at a real URL, instead of it only running on your laptop. Example: pushing to Cloudflare and getting `myapp.workers.dev`.
 
 ### Environment variable (`.env`)
 
@@ -50,6 +54,10 @@ Git is the tool that tracks every change to your code so you can undo mistakes a
 
 A tool that reads your code and flags likely bugs and bad patterns *before* you run it — like spellcheck for logic. Different from a [formatter](#formatter): a formatter fixes how code *looks*, a linter warns about what it *does*. Example: Biome, ESLint.
 
+### LLM
+
+Large language model: the AI behind assistants like Claude — you send it text (a "prompt") and it sends text back. An "AI app" is usually a normal app that makes an [API](#api) call to one. Example: Claude turning your chat messages into a reply.
+
 ### ORM
 
 Object-Relational Mapper: a layer that lets you talk to your [database](#database) using normal code instead of writing raw SQL strings by hand, with autocomplete and type safety. Example: Drizzle.
@@ -60,7 +68,15 @@ A tool that downloads and tracks the third-party code libraries your project dep
 
 ### RAG
 
-Retrieval-Augmented Generation: a technique where you fetch relevant documents first and hand them to an [LLM](#api) as context, so it answers from *your* data instead of making things up. Example: a chatbot that answers questions about your company docs by looking them up before replying.
+Retrieval-Augmented Generation: a technique where you fetch relevant documents first and hand them to an [LLM](#llm) as context, so it answers from *your* data instead of making things up. Example: a chatbot that answers questions about your company docs by looking them up before replying.
+
+### SDK
+
+Software development kit: a ready-made library that wraps a service's [API](#api) so you call it with a few lines of typed code instead of hand-building web requests. Example: the Anthropic SDK for calling Claude, or the AI SDK for streaming chat UIs.
+
+### Serverless
+
+A hosting model where the platform runs your code on demand and scales it for you — you never provision or babysit a server, and you pay only for what actually runs. Example: Cloudflare Workers running your API without you managing any machine.
 
 ### Type checker / TypeScript
 
