@@ -4,9 +4,9 @@ export default defineConfig({
   title: "Vibe Coder's Survival Guide",
   description:
     'The opinionated, AI-friendly stack and learning path for people who build with AI.',
-  base: '/vibe-coder-survival-guide/',
+  base: '/',
   srcDir: '.',
-  srcExclude: ['README.md', 'CONTRIBUTING.md', 'docs/**'],
+  srcExclude: ['README.md', 'CONTRIBUTING.md'],
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
