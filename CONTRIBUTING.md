@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping make **The Vibe Coder's Survival Guide** better. This is a content project — Markdown, no build step — so contributing is mostly writing clearly and keeping the opinion consistent.
+Thanks for helping make **Vibe Coder's Survival Guide** better. This is a content project — Markdown, no build step — so contributing is mostly writing clearly and keeping the opinion consistent.
 
 ## Ways to contribute
 

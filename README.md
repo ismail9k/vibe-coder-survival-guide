@@ -1,4 +1,4 @@
-# The Vibe Coder's Survival Guide
+# Vibe Coder's Survival Guide
 
 > The opinionated, AI-friendly stack and learning path for people who build with AI.
 
