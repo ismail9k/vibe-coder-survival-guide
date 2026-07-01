@@ -2,13 +2,7 @@
 
 > The opinionated, AI-friendly stack and learning path for people who build with AI.
 
-📖 **Read it online:** https://ismail9k.github.io/vibe-coder-survival-guide/
-
-> **Maintainers:** this site is built with [VitePress](https://vitepress.dev) and
-> deploys automatically on every push to `main`. One-time setup: in the repo,
-> go to **Settings → Pages → Build and deployment → Source** and select
-> **GitHub Actions**. Run the site locally with `pnpm install` then
-> `pnpm docs:dev`.
+📖 **Read it online:** https://vibecoders.ismail9k.com/
 
 You're shipping real things with an AI assistant. But there's a whole layer of tooling a real project needs that nobody told you about — the reason you ask the AI to "make my code neat" instead of installing a [formatter](./glossary.md#formatter), because you didn't know formatters exist. This guide closes that gap.
 
